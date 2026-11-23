@@ -25,5 +25,5 @@ for what is planned, and [CONTRIBUTING.md](https://github.com/currentphp/monorep
 for how to give feedback. Current was named WavyKit until November 2026; the
 `wavykit/*` packages are abandoned in favour of these.
 
-Current is a [Wavy](https://wavy.dev) project. Questions or feedback:
-[hello@wavy.dev](mailto:hello@wavy.dev)
+Current is made by Brenden Chu. Questions or feedback:
+[hello@currentphp.com](mailto:hello@currentphp.com)
