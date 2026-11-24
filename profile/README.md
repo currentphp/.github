@@ -15,15 +15,17 @@ composer require current/current
 
 | Package | |
 | --- | --- |
-| [`current/current`](https://github.com/currentphp/monorepo/tree/main/packages/current) | Pages, breadcrumbs, menus, and subjects for Laravel 13 and PHP 8.3+. [Packagist](https://packagist.org/packages/current/current) |
-| [`current/inertia`](https://github.com/currentphp/monorepo/tree/main/packages/inertia) | Shares the current page, subject, breadcrumbs, and menus with Inertia, with TypeScript types. [Packagist](https://packagist.org/packages/current/inertia) |
+| [`current/current`](https://github.com/currentphp/monorepo/tree/main/packages/current) | Pages, breadcrumbs, menus, subjects, and actions for Laravel 13 and PHP 8.3+, with optional Inertia support. [Packagist](https://packagist.org/packages/current/current) |
+| [`@currentphp/client`](https://github.com/currentphp/monorepo/tree/main/packages/client) | TypeScript types for the shared experience data, and `is()`, matching `Current::is()`. [npm](https://www.npmjs.com/package/@currentphp/client) |
 
 Development happens in the [`currentphp/monorepo`](https://github.com/currentphp/monorepo)
 repository; package repositories such as `currentphp/current` are read-only
 mirrors. See [Direction and decisions](https://github.com/currentphp/monorepo/blob/main/docs/decisions.md)
 for what is planned, and [CONTRIBUTING.md](https://github.com/currentphp/monorepo/blob/main/CONTRIBUTING.md)
 for how to give feedback. Current was named WavyKit until November 2026; the
-`wavykit/*` packages are abandoned in favour of these.
+`wavykit/*` packages are abandoned in favour of these. Inertia support moved
+into `current/current` in 0.7, so `current/inertia` is abandoned in favour of
+it.
 
 Current is made by Brenden Chu. Questions or feedback:
 [hello@currentphp.com](mailto:hello@currentphp.com)
