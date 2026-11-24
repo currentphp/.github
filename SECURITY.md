@@ -3,8 +3,8 @@
 ## Supported versions
 
 Current is on 0.x. Security fixes are released for the latest minor version
-of each package only. The former `wavykit/*` packages are abandoned and get no
-fixes; move to `current/current` and `current/inertia`.
+of each active package only: `current/current` on Composer and
+`@currentphp/client` on npm.
 
 ## Reporting a vulnerability
 

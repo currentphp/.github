@@ -22,10 +22,7 @@ Development happens in the [`currentphp/monorepo`](https://github.com/currentphp
 repository; package repositories such as `currentphp/current` are read-only
 mirrors. See [Direction and decisions](https://github.com/currentphp/monorepo/blob/main/docs/decisions.md)
 for what is planned, and [CONTRIBUTING.md](https://github.com/currentphp/monorepo/blob/main/CONTRIBUTING.md)
-for how to give feedback. Current was named WavyKit until November 2026; the
-`wavykit/*` packages are abandoned in favour of these. Inertia support moved
-into `current/current` in 0.7, so `current/inertia` is abandoned in favour of
-it.
+for how to give feedback.
 
 Current is made by Brenden Chu. Questions or feedback:
 [hello@currentphp.com](mailto:hello@currentphp.com)
